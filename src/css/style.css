@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#text {
+    height: 300px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#result {
+    white-space: pre-wrap;
+    height: auto;
+    resize: vertical;
+    overflow: auto;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+#copyButton {
+    position: relative;
+    left: 80px;
+}
+
+.boton_d_e {
+    width: 10rem;
+}
+
+.box {
+    display: flex;
+    height: 25rem;
+}
+
+/* Estilos para la vista de tablet */
+@media screen and (max-width: 1024px) {
+    .box {
+        display: inline-block;
+        height: auto;
+    }
+
+    #image {
+        display: none;
+    }
+
+    #messageImage {
+        display: block;
+        width: 500px;
+    }
+
+    .area {
+        width: 24rem;
+    }
+
+    .botones {
+        position: absolute;
+        bottom: 100px;
+        margin: 3rem 0;
+    }
+
+    .botones p {
+        display: none;
+    }
+
+    #copyButton {
+        position: absolute;
+        top: 200px;
+        width: 10rem;
+    }
+
+    #resultContainer {
+        height: 18rem;
+        position: relative;
+        top: 120px;
+    }
+}
+
+/* Estilos para la vista de celular */
+@media screen and (max-width: 768px) {
+
+
+    .area {
+        width: 18rem;
+    }
+    .boton_d_e {
+        width: 7rem;
+    }
+    #copyButton {
+        position: absolute;
+        top: 200px;
+        width: 5rem;
+    }
+
+}
